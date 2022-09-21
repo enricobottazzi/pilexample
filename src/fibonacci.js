@@ -10,6 +10,7 @@ module.exports.buildConstants = async function (pols) {
     }
 }
 
+// fill the columns of aBeforeLast and aLst. generating two polynomials. 
 module.exports.execute = async function (pols, input) {
 
     const N = pols.aLast.length;
