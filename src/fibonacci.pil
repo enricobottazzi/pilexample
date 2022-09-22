@@ -6,7 +6,7 @@ namespace Fibonacci(%N);
     pol commit aBeforeLast, aLast;
 
  
-    (1-ISLAST) * (aBeforeLast' - aLast) = 0; // Conditions to be fullfiled when islast is 0 
+    (1-ISLAST) * (aBeforeLast' - aLast) = 0; // Conditions to be fullfiled when islast is 0. So it allows to transit state within the Fibonacci series
     (1-ISLAST) * (aLast' - (aBeforeLast + aLast)) = 0; // Conditions to be fullfiled when islast is 1 
 
     public out = aLast(%N-1);
